@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "correlationcoefficientpy"
+version = "0.1.0"
+description = "this program calcualtes correlation coefficient for Test automation execution time, complexity"
+authors = ["ShanKonduru <ShanKonduru@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+seaborn = "^0.13.2"
+matplotlib = "^3.8.4"
+numpy = "^1.26.4"
+
+[tool.poetry.group.dev.dependencies]
+numpy = "^1.26.4"
+seaborn = "^0.13.2"
+matplotlib = "^3.8.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
